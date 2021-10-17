@@ -83,7 +83,7 @@ while last_question.lower() != "a ring" and last_question.lower() != "the ring":
         last_question = input("Wrong again. Last guess. ")
     if last_question.lower() != "a ring" and last_question.lower() != "the ring":
 #image (gif link: https://tenor.com/view/lotr-gollum-times-up-gif-14341656)
-        im = Image.open("lotr-gollum.png")
+        im = Image.open("img.png")
         im.show()
         break
 else:
